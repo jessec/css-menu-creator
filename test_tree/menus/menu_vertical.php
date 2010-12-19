@@ -120,7 +120,7 @@ EOT;
 	}
 
 
-$con = mysql_connect("localhost", "root", "jessejesse");
+$con = mysql_connect("localhost", "root", "");
 mysql_select_db("test_tree", $con);
 
 function getTree ($root)

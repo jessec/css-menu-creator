@@ -54,7 +54,7 @@ else if (TARGET_PLATFORM == DATABASE_PLATFORM)
 	//set database user name    
 	$dbUsername = "root"; 
 	// set password to connect to database	 
-	$dbPassword = "jessejesse";
+	$dbPassword = "";
 	// set database name
 	$dbName = "test_tree";
 	// set database table prefix 
