@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+#################################################################################
+Simple File Manager PHP Script v1.5.													
+Created By Dave Earley.															
+Dave-Earley.com																	
+3rd April 10																	
+Do whatever you wish with the script (but please leave this notice here)		
+#################################################################################
+
+/* sortable tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #9CF;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(/assets/tiny/images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: dotted;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	line-height:30px;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(/assets/tiny/images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(/assets/tiny/images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+/*Messages - alert & success*/
+.message_warning {
+	height: 50px;
+	text-indent: 55px;
+	margin: 5px;
+	line-height: 50px;
+	padding: 5px;
+	background-position: 5px;
+	font-size: 16px;
+	width: 600px;
+	border:1px solid #F1AA2D;
+	background-color: #FEFFC8;
+	background-image: url(/assets/tiny/images/alert.png);
+	background-repeat: no-repeat;
+	display:block;
+	cursor:pointer;
+}
+.message_success {
+	cursor:pointer;
+	height: 50px;
+	text-indent: 55px;
+	margin: 5px;
+	line-height: 50px;
+	padding: 5px;
+	background-position: 5px;
+	font-size: 16px;
+	width: 600px;
+	border:1px solid #739F1D;
+	background-color: #D4F684;
+	background-image: url(/assets/tiny/images/tick.png);
+	background-repeat: no-repeat;
+	display:block;
+}
+.wrap {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #eeeeee;
+	color: #333;
+}
+
+*/
+
+
+/*Misc*/
+input, textarea, option, select {
+	padding:5px;
+	border:#666 solid 1px;
+	-moz-border-radius:5px;
+	margin-top: 4px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	background-color: #ffffff;
+}
+
+#breadcrumb {
+	text-decoration:none;
+	color:#333;
+	border-bottom:1px #333 dotted;
+	size:16px;
+}
